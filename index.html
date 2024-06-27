@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlTag" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Fahim Haddad</title>
+</head>
+<body style="overflow-x: hidden;">
+    <nav class=" navbar navbar-expand-lg bg-body-tertiary sticky-top" id="navbar">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#">Fahim Haddad</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#apropos">À propos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#projet">Projets</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#competence">Compétences</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                
+            </ul>
+            <div class="form-check form-switch " role="search">
+                <input class="form-check-input" type="checkbox" id="darkSwitch">
+                <label class="form-check-label" for="darkSwitch">Mode sombre</label>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+<main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
+    <section class="position-relative fond" style="height: 100vh;width: 100%;">
+        <div id="particles-js"></div>
+        <h2 class="position-absolute top-50 start-50 translate-middle fw-bold presentation user-select-none" id="message"></h2>
+    </section>
+    <section class="container hidden-section" id="apropos">
+        <p class="display-6 my-3 fw-bold"> À propos de moi</p>
+        <div class=" my-2">
+            <div class="container w-100 h-100 ">
+                <div class="d-flex flex-column flex-md-row w-100 h-100" style="gap: 40px;">
+                    <div style="box-sizing: border-box;min-width: 40%; margin-left: -30px;">
+                        <img src="photo.f.jpg" class="img-fluid rounded-circle" alt="mon portrait" style="width:85%;">
+    
+                    </div>
+                    <div class="d-flex flex-column justify-content-between" style="box-sizing: border-box;min-width: 60%;">
+                        <div class="h-25">
+                            <ul class="nav nav-tabs flex-nowrap" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active text-reset fw-semibold" id="apropos-tab" data-bs-toggle="tab" data-bs-target="#apropos-tab-pane" type="button" role="tab" aria-controls="apropos-tab-pane" aria-selected="true"> À propos</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link text-reset fw-semibold" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills-tab-pane" type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="false">Soft skills</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link text-reset fw-semibold" id="centre-intere-tab" data-bs-toggle="tab" data-bs-target="#centre-intere-tab-pane" type="button" role="tab" aria-controls="centre-intere-tab-pane" aria-selected="false">Centres d'intérêt</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="h-75">
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active " id="apropos-tab-pane" role="tabpanel" aria-labelledby="apropos-tab" tabindex="0">
+                                    <p class="t text-wrap fs-6">Étudiant en Bachelor Conception et Développement d'Applications à l'ECE Paris - Campus Lyon (promo 2026), je suis passionné par le développement informatique et vise à devenir développeur full stack. 
+                                        Créatif et intéressé par les nouvelles technologies, j'aime repousser mes limites et innover. Je suis enthousiaste à l'idée de participer à des projets innovants.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab" tabindex="0">
+                                        <ul style="list-style: none;">
+                                            <li class="my-1"><span class="fs-5 fw-semibold">Motivé et déterminé : </span>Je suis motivé par les défis et les opportunités de croissance. Mon désir constant d'amélioration me pousse à donner le meilleur de moi-même dans tout ce que j'entreprends.</li>
+                                            <li class="my-1"><span class="fs-5 fw-semibold">Travail en Équipe : </span>J'ai une approche collaborative et je crois fermement que le travail d'équipe est essentiel pour atteindre des objectifs ambitieux.</li>
+                                            <li class="my-1"><span class="fs-5 fw-semibold">Communication : </span>Ma capacité à communiquer clairement et efficacement est un atout</li>
+                                            <li class="my-1"><span class="fs-5 fw-semibold">Apprentissage : </span>Je suis un apprenant efficace et je suis toujours prêt à relever de nouveaux défis. J'assimile rapidement les connaissances et je les applique de manière créative</li>
+                                            <li class="my-1"><span class="fs-5 fw-semibold">. . .</span></li>
+                                        </ul>
+                                    
+                                </div>
+                                <div class="tab-pane fade" id="centre-intere-tab-pane" role="tabpanel" aria-labelledby="centre-intere-tab" tabindex="0">
+                                    <ul style="list-style: none;">
+                                        <li class="my-1"><span class="fs-5 fw-semibold">Football : </span>Je suis un vrai passioné, c'est mon sport préféré.</li>
+                                        <li class="my-1"><span class="fs-5 fw-semibold">Développement et codage informatique : </span>Je suis passionné par la programmation. J'adore coder, ce qui me pousse constamment à explorer et à acquérir de nouvelles compétences en développement informatique</li>
+                                        <li class="my-1"><span class="fs-5 fw-semibold">Jeu d'échecs : </span>Je joue de temps en temps, ce qui me stimule et m'aide à développer un esprit d'analyse et de résolution de problèmes."</li>
+                                        <li class="my-1"><span class="fs-5 fw-semibold">. . .</span></li>
+                                    </ul>
+                                </div>
+                                
+                              </div>
+                        </div>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <hr class="my-5">
+    </div>
+    <section id="projet" class="light-mode my-2 hidden-section">
+        <div class="container">
+            <p class="display-5 my-3 fw-bold">Projets</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 row-cols-xxl-4 g-3">
+                <div class="col position-relative flex-item" style=" height: 500px;">
+                    <div class="flip-card p-2 w-100 h-100">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('projet1.png');">
+                            <div class="description p-2">
+                              <h5 class="fw-bolder text-uppercase fs-4">AUTOFFO</h5>
+                              <p class="fw-semibold fs-5 lh-lg">Application web pour vente et location de voiture de luxe</p>
+                              <button class="btn btn-lg border-2 rounded btn-outline-light text-uppercase fw-semibold bouton">En savoir plus</button>
+                            </div>
+                          </div>
+                          <div class="flip-card-back d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('projet1.png');">
+                            <div class="description p-2 m-2">
+                              <h5 class="fw-bolder text-uppercase fs-4">AUTOFFO</h5>
+                              <p class="fw-semibold">
+                                Conception et développement d'une application web de location de voiture de luxe, avec une interface simple et conviviale.
+                                <br>
+                                <span class="text-italic" style="color: #f9e6ce;">Réalisé par :</span> Moi et un autre étudiant
+                                <br>
+                                <span class="text-italic" style="color: #f9e6ce;">Temps :</span> 20 heures
+                                <br>
+                                <span class="text-italic" style="color: #f9e6ce;">Langages :</span> HTML, CSS, JavaScript, PHP, SQL
+                                <br>
+                                <span class="text-italic" style="color: #f9e6ce;">Outils :</span> Visual Studio Code, GitHub, e-mail, WhatsApp, app.diagramme.io
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                </div>
+                <div class="col position-relative flex-item" style=" height: 500px;">
+                    <div class="flip-card p-2 w-100 h-100">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('portfolio.png');">
+                            <div class="description p-2">
+                              <h5 class="fw-bolder text-uppercase fs-4">Portfolio</h5>
+                              <p class="fw-semibold fs-5 lh-lg">Site sur lequel vous êtes</p>
+                              <button class="btn btn-lg border-2 rounded btn-outline-light text-uppercase fw-semibold bouton">En savoir plus</button>
+                            </div>
+                          </div>
+                          <div class="flip-card-back d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('portfolio.png');">
+                            <div class="description p-2 m-2">
+                                <h5 class="fw-bolder text-uppercase fs-4">Mon portfolio</h5>
+                                <p class="fw-semibold">
+                                    Site Web décrivant principalement mes projets et mes compétences <br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Réalisé par :</span> moi-même<br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Temps :</span> 10 heures <br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Langages:</span> HTML, CSS, bootstrap, Javascript<br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Outils : </span> VSCODE, Github, Firebase, Bootstrap documentation <br>
+                                </p> 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col position-relative flex-item" style=" height: 500px;">
+                    <div class="flip-card p-2 w-100 h-100">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('gestion-projet.png');">
+                            <div class="description p-2 m-1">
+                              <h5 class="fw-bolder text-uppercase fs-4">Dataflow</h5>
+                              <p class="fw-semibold fs-5 lh-lg">Application de gestion de projet IT</p>
+                              <button class="btn btn-lg border-2 rounded btn-outline-light text-uppercase fw-semibold bouton">En savoir plus</button>
+                            </div>
+                          </div>
+                          <div class="flip-card-back d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('gestion-projet.png');">
+                            <div class="description p-2 m-2">
+                                <h5 class="fw-bolder text-uppercase fs-4">Dataflow</h5>
+                                <p class="fw-semibold">
+                                    Développement d'une application web pour gérer plusieurs projets. <br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Fonctionnalités clés : </span>  Tableau de bord et Calendrier, Créer un projets, Créer une équipe, Attribuer des tâches, Commenter une tâche, Partager des fichiers, ...<br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Réalisé par :</span> moi-même<br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Temps :</span> 15 heures <br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Langages:</span> HTML, CSS, Bootstrap, Javascript, PHP, SQL. <br>
+                                    <span class="text-italic" style="color: #f9e6ce;">Outils : </span> VSCODE, wampserver mysql, Github, Mail, Whatsapp, app.diagramme.io, Bootstrap documentation, Google Docs. <br></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col position-relative flex-item" style=" height: 500px;">
+                    <div class="flip-card p-2 w-100 h-100">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('snoopy.png');">
+                            <div class="description p-2">
+                              <h5 class="fw-bolder text-uppercase fs-4">Revanche de snoopy</h5>
+                              <p class="fw-semibold fs-5 lh-lg">Revanche de Snoopy en C sur le terminal</p>
+                              <button class="btn btn-lg border-2 rounded btn-outline-light text-uppercase fw-semibold bouton">En savoir plus</button>
+                            </div>
+                          </div>
+                          <div class="flip-card-back d-flex justify-content-center align-items-center border rounded-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('snoopy-2.png');">
+                            <div class="description p-2 m-2">
+                                <h5 class="fw-bolder text-uppercase fs-4">Revanche de snoopy</h5>
+                                    <p class="fw-semibold ">
+                                        Développement du jeu revanche de snoopy en C sans bibliothèque graphique ni externes. <br>
+                                        <span class="text-italic" style="color: #f9e6ce;">Fonctionnalités clés : </span> menu, choix de niveau par mot de passe, sauvegarde et rechargement d'une partie, mur déplaçable, mur piégé, bal piégée. <br>
+                                        <span class="text-italic" style="color: #f9e6ce;">Réalisé par :</span> Moi, et deux autres étudiants <br>
+                                        <span class="text-italic" style="color: #f9e6ce;">Temps :</span> 20 heures <br>
+                                        <span class="text-italic" style="color: #f9e6ce;">Langages:</span> C (chaine de caractères, structure, pointeur, fichier (bin et txt)) <br>
+                                        <span class="text-italic" style="color: #f9e6ce;">Outils : </span> Clion (JetBrains), Google Docs, Github, Linux.<br></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <hr class="my-5">
+    </div>
+    <section class=" my-2 hidden-section" id="competence" style="min-height: 50vh;">
+        <div class="container">
+            <p class="display-5 my-3 fw-bold">Mes compétences</p>
+        </div>
+        <div class="container-fluid">
+            <span class="display-6 my-3 ms-5">Langages de programation : </span>
+            <div class="row row-cols-3 row-cols-md-4 row-cols-lg-6 my-3 mx-2"style="min-height:40vh;">
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="html.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">HTML</span></div>
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="js.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">javasrcipt</span></div>
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="css.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">css</span></div>
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="php.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">php</span></div>
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="c++.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">c++</span></div>
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="c.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">c</span></div>
+                <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                    <img src="sql.png" alt="..." class="objectif-fit-contain" style="width: 90%;height: 90%;"><span class="text-uppercase fw-bold fs-4">SQL</span></div>
+                    <div class="col d-flex justify-content-center align-items-center flex-column h-50 g-2 flex-item">
+                        <img src="java.png" alt="..." class="objectif-fit-contain" style="width: 90%; height: 90%;">
+                        <span class="text-uppercase fw-bold fs-4" style="position: relative; top: 76px;">JAVA</span></div>
+                    </div>
+            <span class="display-6 ms-5">Réseau et système : </span>
+            <div class="row row-cols-3 row-cols-md-4 row-cols-lg-6 my-3 mx-2 gx-3 gy-1 hidden-section"style="height:20vh;">
+                <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-center align-items-center border rounded-circle h-50  p-2 flex-item" style="flex:1; background-color:#aeaeae"><div class="fw-bold ">Base en réseau</div>
+                    </div>
+               </div>  
+                <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-center align-items-center border rounded-circle h-50  p-2 flex-item" style="flex:1; background-color:#fdaefd"><div class="fw-bold ">OSI et TCP/IP</div></div>
+               
+                </div>  
+                <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-center align-items-center border rounded-circle h-50  p-2 flex-item" style="flex:1; background-color:#8b8bff"><div class="fw-bold ">Linux</div></div>
+                </div>
+                <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-center align-items-center border rounded-circle h-50  p-2 flex-item" style="flex:1; background-color:yellow"><div class="fw-bold ">Virtual Box</div></div>
+                </div> 
+                <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-center align-items-center border rounded-circle h-50  p-2 flex-item" style="flex:1; background-color:#ff6565"><div class="fw-bold ">Cisco packet tracer</div></div>
+                </div>        
+                <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-center align-items-center border rounded-circle h-50  p-2 flex-item" style="flex:1; background-color:#7edf7e"><div class="fw-bold ">Script bash powershell</div></div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <hr class="my-5">
+    </div>
+    <section id="contact" class="my-3 hidden-section">
+        <div class="container">
+            <p class="display-5 my-3 fw-bold">Contact</p>
+        </div>
+        <div class="container">
+            <div class="my-3"><p class="fs-4">Mon profil vous intéresse, envoyez-moi un message sur mes réseaux :</p></div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div class="col">
+                    <div class="p-1 d-flex justify-content-between align-items-center border rounded bg-info-subtle case flex-item" >
+                        <div class="w-25 "><img src="images.png" alt=".." class="h-100 w-100 objectif-fit-contain"></div>
+                        <div class="w-50 text-nowrap"><a href="https://www.linkedin.com/in/fahim-haddad-a228162a7/" class="text-decoration-none text-reset">Fahim Haddad</a>
+                            </div>
+                        <div  style="width: 10%;">
+                            <a href="https://www.linkedin.com/in/fahim-haddad-a228162a7/" class="text-decoration-none text-reset">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5"/>
+                                <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-1 d-flex justify-content-between align-items-center border rounded bg-info-subtle case flex-item">
+                        <div class="w-25">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-at h-100 w-100" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                            </svg>
+                        </div>
+                        <div class="w-50 text-nowrap">
+                            <a href="mailto:haddad.fahim.pro@gmail.com" class="text-decoration-none text-reset">haddad.fahim.pro@gmail.com</a>
+                        </div>
+                        <div  style="width: 10%;">
+                            <a href="mailto:haddad.fahim.pro@gmail.com" class="text-decoration-none text-reset">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5"/>
+                                    <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                                </svg>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col">
+                    <div class="p-1 d-flex justify-content-between align-items-center border rounded bg-info-subtle case flex-item">
+                        <div class="w-25"><img src="tel.png" alt=".." class="h-100 w-100 objectif-fit-contain"></div>
+                        <div class="w-50 text-center"><a class="text-decoration-none text-reset">Téléphone : 0767892929</a></div>
+                        <div  style="width: 10%;">
+                            <a class="text-decoration-none text-reset">
+                            
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <hr class="my-5">
+    </div>
+    <section class="container hidden-section">
+        <div class="my-3"><p class="fs-4">Ou laissez-moi un message via ce formulaire : </p></div>
+        <div class="d-flex justify-content-center align-items-center my-2">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdx2I57zlEtJOpy45jRedGHAsn4C4MNKMllO4IHfDHLoThEXg/viewform?embedded=true" width="640" height="954" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        </div>
+    </section>
+</main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
